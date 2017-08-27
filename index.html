@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La Toscanella</title>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+  <body id="index">
+    <nav class="navbar">
+      <a href="index.html"><img class="logo" src="img/logo.jpg" alt="logo" width="60px" height="60px"/></a>
+      <button class="menu-btn">
+        <div class="menu">
+          <span class="menu__span menu__span--1"></span>
+          <span class="menu__span menu__span--2"></span>
+          <span class="menu__span menu__span--3"></span>
+        </div>
+      </button>
+    </nav>
+    <div class="nav-slider">
+      <ul class="nav-items">
+        <li><a class="nav-items__item" href="index.html">Home</a></li>
+        <li><a class="nav-items__item" href="menu.html">Menu</a></li>
+        <li><a class="nav-items__item" href="index.html#photo-gallery">Gallery</a></li>
+        <li><a class="nav-items__item" href="holidays.html">Holidays</a></li>
+        <li><a class="nav-items__item" href="about.html">About</a></li>
+        <li><a class="nav-items__item" href="wholesale.html">Wholesale</a></li>
+        <li><a class="nav-items__item" href="catering.html">Catering</a></li>
+        <li><a class="nav-items__item" href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-slider__contact">
+        <span class="nav-slider__contact-accent"></span>
+        <ul class="nav-slider__contact-list">
+          <li class="nav-slider__phone-num">South Lake Union Location: <a style="color: black; text-decoration: underline; display: inline-block;  margin-left: 5px; color: grey;" href="tel:2066821044">206.682.1044</a></li>
+          <li class="nav-slider__phone-num">South Park Location: <a style="color: black; text-decoration: underline; inline-block; margin-left: 5px; color: grey;" href="tel:2064023491">206.402.3491</a></li>
+        </ul>
+      </div>
+    </div>
+    <header class="hero">
+      <div class="row hero__text">
+        <div class="col s12">
+          <h1 class="heading hero__header">La Toscanella</h1>
+          <p class="hero__sub-header">Serving Pasta, Pastries, and Espresso <br> prepared in the culinary traditions of Northern Italy</p>
+          <div class="menu__btn-container">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo">
+              <defs>
+                <filter id="goo">
+                  <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                  <feComposite in="SourceGraphic" in2="goo"/>
+                </filter>
+              </defs>
+            </svg>
+
+            <span class="button--bubble__container">
+              <a href="#campaign" class="button button--bubble">
+                view menu
+              </a>
+              <span class="button--bubble__effect-container">
+                <span class="circle top-left"></span>
+                <span class="circle top-left"></span>
+                <span class="circle top-left"></span>
+
+                <span class="button effect-button"></span>
+
+                <span class="circle bottom-right"></span>
+                <span class="circle bottom-right"></span>
+                <span class="circle bottom-right"></span>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="gallery container" id="photo-gallery">
+        <div class="gallery__category__heading">
+          <h2 class="heading gallery-heading gallery-heading--1">~ Brunch &amp; Espresso ~</h2>
+        </div>
+        <div class="gallery-container">
+          <div class="brunch-section">
+            <div class="gallery-img brunch--one"></div>
+            <div class="gallery-img brunch--two"></div>
+            <div class="gallery-img brunch--three"></div>
+            <div class="gallery-img brunch--four"></div>
+            <div class="gallery-img brunch--five"></div>
+          </div>
+        </div>
+
+          <div class="gallery__category__heading">
+            <h2 class="heading gallery-heading">~ Lunch &amp; Dinner ~</h2>
+          </div>
+          <div class="gallery-container">
+            <div class="lunch-section">
+              <div class="gallery-img lunch--one hide-on-small-only"></div>
+              <div class="gallery-img lunch--two"></div>
+              <div class="gallery-img lunch--three"></div>
+              <div class="gallery-img lunch--four"></div>
+              <div class="gallery-img lunch--five"></div>
+              <div class="gallery-img lunch--six"></div>
+            </div>
+          </div>
+
+          <div class="gallery__category__heading">
+            <h2 class="heading gallery-heading">~ Sweet &amp; Savory Pastries ~</h2>
+          </div>
+
+          <div class="gallery-container">
+            <div class="pastry-section">
+              <div class="gallery-img pastry--one"></div>
+              <div class="gallery-img pastry--two"></div>
+              <div class="gallery-img pastry--three"></div>
+              <div class="gallery-img pastry--four"></div>
+              <div class="gallery-img pastry--five"></div>
+              <div class="gallery-img pastry--six"></div>
+            </div>
+          </div>
+
+          <div class="gallery__category__heading">
+            <h2 class="heading gallery-heading">~ Desserts ~</h2>
+          </div>
+          <div class="gallery-container">
+            <div class="dessert-section dessert-top-third">
+              <div class="gallery-img dessert--one"></div>
+              <div class="gallery-img dessert--two hide-on-small-only"></div>
+              <div class="gallery-img dessert--three"></div>
+              <div class="gallery-img dessert--four"></div>
+              <div class="gallery-img dessert--five"></div>
+            </div>
+
+            <div class="dessert-section dessert-mid-third">
+              <div class="gallery-img dessert--six hide-on-small-only"></div>
+              <div class="gallery-img dessert--seven"></div>
+            </div>
+
+            <div class="dessert-section dessert-bottom-third">
+              <div class="gallery-img dessert--eight"></div>
+              <div class="gallery-img dessert--nine hide-on-small-only"></div>
+              <div class="gallery-img dessert--ten"></div>
+              <div class="gallery-img dessert--eleven"></div>
+              <div class="gallery-img dessert--twelve"></div>
+            </div>
+          </div>
+
+          <div class="gallery__category__heading">
+            <h2 class="heading gallery-heading">~ Drinks ~</h2>
+          </div>
+          <div class="gallery-container">
+            <div class="drink-section">
+              <div class="gallery-img drink--one hide-on-small-only"></div>
+              <div class="gallery-img drink--two"></div>
+              <div class="gallery-img drink--three hide-on-small-only"></div>
+              <div class="gallery-img drink--four"></div>
+              <div class="gallery-img drink--five hide-on-small-only"></div>
+              <div class="gallery-img drink--six"></div>
+            </div>
+          </div>
+      </section>
+          <!--<div class="container">
+            <div class="row">
+              <div class="col s12 m6">
+                <img class="lazy gallery-img brunch brunch--one img-responsive" data-original="img/gallery/brunch/one.jpg">
+              </div>
+              <div class="col s12 m6">
+                <img class="lazy gallery-img brunch brunch--three img-responsive" data-original="img/gallery/brunch/three.jpg">
+              </div>
+              <div class="col s12 m6 testing">
+                <img class="lazy gallery-img brunch brunch--five img-responsive" data-original="img/gallery/brunch/four.jpg">
+              </div>
+              <div class="col s12 m6 testing">
+                <img class="lazy gallery-img brunch--two img-responsive" data-original="img/gallery/brunch/two.jpg">
+              </div>
+            </div>
+
+          </div>
+        </div> -->
+
+        <!--<div class="container">
+          <div class="row pastries-row">
+            <img class="lazy gallery-img img-responsive" data-original="img/gallery/pastries/one.jpg">
+            <img class="lazy gallery-img img-responsive pastry-fifty-percent" data-original="img/gallery/pastries/two.jpg">
+            <img class="lazy gallery-img pastry-fifty-percent pastry-three" data-original="img/gallery/pastries/three.jpg">
+            <div class="col s12 m6 pastries--two">
+              <img class="lazy gallery-img img-responsive" data-original="img/gallery/pastries/two.jpg">
+            </div> -
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6">
+              <img class="lazy gallery-img img-responsive" data-original="img/gallery/lunch/one.jpg">
+            </div>
+            <div class="col s12 m6">
+              <img class="lazy gallery-img img-responsive" data-original="img/gallery/lunch/two.jpg">
+            </div>
+            <div class="col s12 m6">
+              <img class="lazy gallery-img lunch--one img-responsive" data-original="img/gallery/lunch/three.jpg">
+            </div>
+            <div class="col s12 m6">
+              <img class="lazy gallery-img lunch--two img-responsive" data-original="img/gallery/lunch/four.jpg">
+            </div>
+            <div class="col s12 m6">
+              <img class="lazy gallery-img lunch--two img-responsive" data-original="img/gallery/lunch/five.jpg">
+            </div>
+            <div class="col s12 m6">
+              <img class="lazy gallery-img lunch--two img-responsive" data-original="img/gallery/lunch/six.jpg">
+            </div>
+          </div>
+        </div> -->
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="container footer-content">
+        <div class="row footer-content__row-1">
+          <div class="col l6 s11 offset-s1">
+            <img src="img/footer-logo.png" alt="logo" width="90px" height="90px"/>
+            <p class="grey-text text-lighten-4 footer-slogan">Serving Pasta, Pastries, and Espresso
+              prepared in the culinary traditions of Northern Italy</p>
+          </div>
+
+          <span class="footer-divider"></span>
+        </div>
+
+        <div class="row">
+          <div class="col s11 offset-s1 m3 footer-col">
+            <h2 class="footer-heading">Bakery</h2>
+            <ul>
+              <li><a class="footer-link" href="index.html">Home</a></li>
+              <li><a class="footer-link" href="menu.html">Menu</a></li>
+              <li><a class="footer-link" href="about.html">About</a></li>
+            </ul>
+          </div>
+          <div class="col s11 offset-s1 m3 footer-col">
+            <h2 class="footer-heading">Extras</h2>
+            <ul>
+              <li><a class="footer-link" href="catering.html">Catering Info</a></li>
+              <li><a class="footer-link" href="wholesale.html">Wholesale Info</a></li>
+            </ul>
+          </div>
+          <div class="col s11 offset-s1 m3 footer-col">
+            <h2 class="footer-heading">Contact</h2>
+            <ul>
+              <li><a class="footer-link" href="contact.html">South Lake Union Location</a></li>
+              <li><a class="footer-link" href="contact.html">South Park Location</a></li>
+            </ul>
+          </div>
+          <div class="col s11 offset-s1 m3 footer-col">
+            <h2 class="footer-heading">Follow Us</h2>
+            <ul class="social-links">
+              <li><a class="footer-link social-link" href="https://www.instagram.com/latoscanellabakery/" target="_balnk">Instagram</a></li>
+              <li><a class="footer-link social-link" href="https://www.facebook.com/La-Toscanella-205889089516469/" target="_balnk">SLU Facebook</a></li>
+              <li><a class="footer-link social-link" href="https://www.facebook.com/La-Toscanella-South-Park-1901451780133985/" target="_balnk">South Park Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2017 La Toscanella
+        <a class="right maribel-link" href="#!">Website Design By Maribel Creative Agency</a>
+        </div>
+      </div>
+    </footer>
+    <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+  </body>
+</html>
